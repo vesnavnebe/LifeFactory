@@ -1,0 +1,17 @@
+{
+  "servers": {
+    "fetch": {
+      "command": "/Users/miracali/.local/bin/uvx",
+      "args": ["mcp-server-fetch"],
+      "description": "Читает веб-страницы по URL. Используй для ресёрча, анализа сайтов клиентов, чтения статей."
+    },
+    "brave-search": {
+      "command": "/Users/miracali/.local/bin/uvx",
+      "args": ["mcp-server-brave-search"],
+      "env": {
+        "BRAVE_API_KEY": "ВСТАВЬ_СЮДА_КЛЮЧ"
+      },
+      "description": "Поиск в интернете через Brave. Нужен бесплатный API-ключ с brave.com/search/api"
+    }
+  }
+}
